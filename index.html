@@ -130,26 +130,7 @@
 
     function App() {
 
-      const [chatMessages, setChatMessages] = React.useState([{
-        message: 'Hello Chatbot',
-        sender: 'user',
-        id: 'id1'
-      },
-      {
-        message: 'Hello! How can I help you?',
-        sender: 'robot',
-        id: 'id2'
-      },
-      {
-        message: 'Can you get me todays date?',
-        sender: 'user',
-        id: 'id3'
-      },
-      {
-        message: 'Today is september 2',
-        sender: 'robot',
-        id: 'id4'
-      }]);
+      const [chatMessages, setChatMessages] = React.useState([]);
 
       /*  const chatMessages = array[0]; //array of 0 gives the current data
         const setChatMessages = array[1]; //array of 1 return a function that updates the data
